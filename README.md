@@ -1,2 +1,2 @@
 # scripts_mohid
-Script to remove headers and residual blocks in MOHID .srh files (use in calibration)
+Numerical models typically save their results in text files with some specific characteristics (headers referring to the coordinate system, residual values, time series start and end indications, etc.). All of this prevents the files from being opened directly and their values from being worked on. This code allows you to eliminate these unnecessary lines and operate directly on their values.
